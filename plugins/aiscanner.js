@@ -1,7 +1,7 @@
 /* Codded by @phaticusthiccy
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
-*/
+
 
 // It converts wrong commands to true
 // Also Kind of AI 
@@ -519,3 +519,4 @@ Asena.addCommand({pattern: 'xemdia', fromMe: true, dontAddCommandList: true}, (a
     await message.sendMessage('.xmedia');
 
 }));
+*/
