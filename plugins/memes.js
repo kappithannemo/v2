@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 
 WhatsAsena - Yusuf Usta
 Coded by @KursadHD
-*/
+
 
 const Asena = require('../events');
 const {MessageType, Mimetype} = require('@adiwajshing/baileys');
@@ -48,3 +48,4 @@ Asena.addCommand({pattern: 'meme ?(.*)', fromMe: false, desc: Lang.MEMES_DESC}, 
         await info.delete();    
     });
 }));
+*/
