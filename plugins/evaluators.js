@@ -4,7 +4,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
 WhatsAsena - Yusuf Usta
-*/
+
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -26,3 +26,4 @@ Asena.addCommand({pattern: 'term ?(.*)', fromMe: true, desc: Lang.TERM_DESC, don
         return await message.client.sendMessage(message.jid,'```' + user + ':~# ' + match[1] + '\n' + stdout + '```',MessageType.text);
       });
 }));
+*/
