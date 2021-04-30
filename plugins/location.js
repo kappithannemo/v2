@@ -1,7 +1,7 @@
 /* Codded by @phaticusthiccy
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
-*/
+
 
 const Asena = require('../events');
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys'); // Boredom 😬
@@ -21,3 +21,4 @@ const Lang = Language.getString('locate'); // Language supp. 😉
         await message.sendMessage(`My Location! ${r_text[i]}`, MessageType.location); // It sends ur location. Cool tho 😱
 
 }));
+*/
