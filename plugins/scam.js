@@ -1,7 +1,6 @@
 /* Codded by @phaticusthiccy
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
-*/
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype, Presence} = require('@adiwajshing/baileys');
@@ -338,3 +337,4 @@ Asena.addCommand({pattern: 'scam ?(.*)', fromMe: true, desc: Lang.SCAM_DESC}, (a
     }
 
 }));
+*/
