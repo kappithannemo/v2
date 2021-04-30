@@ -24,7 +24,7 @@ const Lang = Language.getString('tagall');
    if (!im) return await message.client.sendMessage(message.jid,mesaj, MessageType.extendedText, {contextInfo: {mentionedJid: jids}, previewType: 0})*/
    /*message.client.sendMessage(message.jid,Lang.ADMİN,MessageType.text);*/
 
-    grup = await message.client.groupMetadata(message.jid);
+    /*grup = await message.client.groupMetadata(message.jid);
     var jids = [];
     mesaj = '';
     grup['participants'].map(
@@ -34,5 +34,4 @@ const Lang = Language.getString('tagall');
         }
     );
     await message.client.sendMessage(message.jid,mesaj, MessageType.extendedText, {contextInfo: {mentionedJid: jids}, previewType: 0,quoted: message.data})
-}));
-*/
+}));*/
