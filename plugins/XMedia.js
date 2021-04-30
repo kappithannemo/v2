@@ -1,7 +1,6 @@
 /* Codded by @phaticusthiccy
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
-*/
 
 const Asena = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
@@ -868,3 +867,4 @@ Asena.addCommand({pattern: 'mp4slowmo', fromMe: false, dontAddCommandList: true}
         });
     return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
 }));
+*/
