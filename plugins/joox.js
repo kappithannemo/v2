@@ -2,7 +2,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsenaDuplicated
-*/
+
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -32,7 +32,7 @@ const { errorMessage, infoMessage } = require('../helpers');
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDS, MessageType.text);
 	}
 });
-
+*/
 
 Asena.addCommand({pattern: 'psong ?(.*)', fromMe: true }, async (message, match) => {
 	if (match[1] === '') return await message.reply(Lang.NEED_SONG);
