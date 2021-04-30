@@ -2,7 +2,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
-*/
+
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -23,3 +23,4 @@ Asena.addCommand({pattern: 'bitly ?(.*)', fromMe: false, desc: Lang.BIT_DESC}, a
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDLI, MessageType.text);
 	}
 });
+*/
