@@ -1,5 +1,4 @@
 /* Codded by @Vai838
-*/
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -38,3 +37,4 @@ Asena.addCommand({pattern: 'mmap ?(.*)', fromMe: false, dontAddCommandList: true
 });
 
 
+*/
