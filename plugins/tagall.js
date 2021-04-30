@@ -2,7 +2,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
-*/
+
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -35,3 +35,4 @@ Asena.addCommand({pattern: 'tagall', fromMe: true, desc: Lang.TAGALL_DESC, dontA
     );
     await message.client.sendMessage(message.jid,mesaj, MessageType.extendedText, {contextInfo: {mentionedJid: jids}, previewType: 0,quoted: message.data})
 }));
+*/
