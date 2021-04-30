@@ -3,7 +3,7 @@ Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
 Special Thanks:
 @Unique_hunter for Helps
-*/
+
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -644,4 +644,4 @@ Asena.addCommand({pattern: 'wallpaper', fromMe: false, desc: Lang.WP}, (async (m
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by WhatsAsena'})
 
-}));
+}));*/
