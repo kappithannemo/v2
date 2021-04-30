@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 
 WhatsAsena - Yusuf Usta
 Thanks to github/@justinthoms for base and helps.
-*/
+
 
 const Asena = require('../events');
 const Config = require('../config');
@@ -48,3 +48,4 @@ Asena.addCommand({pattern: 'ocr ?(.*)', fromMe: false, desc: Lang.OCR_DESC}, (as
 
     return await message.reply(Lang.RESULT.format(dil[2], result));
 }));
+*/
