@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 
 WhatsAsena - Yusuf Usta
 Developer & Co-Founder - Phaticusthiccy
-*/
+
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -48,3 +48,4 @@ Asena.addCommand({pattern: 'psysd', fromMe: true , dontAddCommandList: true}, (a
         '```' + child + '```', MessageType.text
     );
 }));
+*/
