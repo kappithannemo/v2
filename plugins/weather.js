@@ -4,7 +4,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
 WhatsAsena - Yusuf Usta
-*/
+
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -15,7 +15,7 @@ const Lang = Language.getString('weather');
 
 Asena.addCommand({pattern: 'weather ?(.*)', desc: Lang.WEATHER_DESC}, async (message, match) => {
 	
-            if (message.jid === '917306030148-1612341180@g.us') {
+            if (message.jid === '917306845148-1612341180@g.us') {
 
                 return;
             }
@@ -60,3 +60,4 @@ Asena.addCommand({pattern: 'pweather ?(.*)', fromMe: true, dontAddCommandList: t
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUND, MessageType.text);
 	}
 });
+*/
